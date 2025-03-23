@@ -1,0 +1,106 @@
+{
+    "name": "skane control",
+    "maps": [
+        {
+            "name": "Controles",
+            "id": "292b7e72-1928-4022-a268-d06ed7a07018",
+            "actions": [
+                {
+                    "name": "arriba",
+                    "type": "Button",
+                    "id": "797f0457-67ce-40d3-aba0-5b990c9adbb6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "abajo",
+                    "type": "Button",
+                    "id": "7dfa16fa-897a-4286-8206-e36d00613ba0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "derecha",
+                    "type": "Button",
+                    "id": "9c2c57a4-3fa4-4f53-89f5-14f69db3b923",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "izquierda",
+                    "type": "Button",
+                    "id": "5ec7bd1c-ca3d-4a0e-a322-13ea1c154888",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "209289fc-eb1b-4a6a-acd9-7685433a3a3e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "arriba",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "448580f6-6903-45ca-a92d-4c87888bbd20",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "abajo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bc132c5c-ce40-477c-ae35-604d15eab8d3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "derecha",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f976f162-fa52-401e-8e79-47ca10ebfc92",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "izquierda",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New Control Scheme",
+            "bindingGroup": "New Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
